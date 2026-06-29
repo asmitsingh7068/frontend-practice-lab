@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dashboard</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <!-- ================= Sidebar ================= -->
+
+        <aside class="sidebar">
+
+            <div class="logo">
+                <h2>Dashboard</h2>
+            </div>
+
+            <nav>
+
+                <ul>
+
+                    <li class="active">
+                        <a href="#">🏠 Dashboard</a>
+                    </li>
+
+                    <li>
+                        <a href="#">📊 Analytics</a>
+                    </li>
+
+                    <li>
+                        <a href="#">👥 Users</a>
+                    </li>
+
+                    <li>
+                        <a href="#">📦 Products</a>
+                    </li>
+
+                    <li>
+                        <a href="#">💰 Revenue</a>
+                    </li>
+
+                    <li>
+                        <a href="#">📁 Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#">⚙ Settings</a>
+                    </li>
+
+                    <li>
+                        <a href="#">🚪 Logout</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </aside>
+
+        <!-- ================= Main Content ================= -->
+
+        <main class="main-content">
+
+            <!-- Header -->
+
+            <header class="topbar">
+
+                <div class="welcome">
+                    <h1>Welcome Back 👋</h1>
+                    <p>Have a productive day!</p>
+                </div>
+
+                <div class="profile">
+
+                    <span class="notification">🔔</span>
+
+                    <img src="profile111.jpg" alt="profile">
+
+                    <div>
+                        <h4>Asmit Singh</h4>
+                        <small>Frontend Developer</small>
+                    </div>
+
+                </div>
+
+            </header>
+
+            <!-- Dashboard Cards -->
+
+            <section class="cards">
+
+                <div class="card">
+
+                    <div class="icon">👥</div>
+
+                    <h3>Total Users</h3>
+
+                    <h2>12,540</h2>
+
+                    <p>+12% This Month</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="icon">💰</div>
+
+                    <h3>Revenue</h3>
+
+                    <h2>$24,500</h2>
+
+                    <p>+8% This Month</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="icon">📦</div>
+
+                    <h3>Orders</h3>
+
+                    <h2>1,284</h2>
+
+                    <p>+15% This Week</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="icon">⭐</div>
+
+                    <h3>Rating</h3>
+
+                    <h2>4.9</h2>
+
+                    <p>Excellent Performance</p>
+
+                </div>
+
+            </section>
+
+            <!-- Bottom Section -->
+
+            <section class="content">
+
+                <!-- Recent Activity -->
+
+                <div class="table-box">
+
+                    <h2>Recent Activity</h2>
+
+                    <table>
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Name</th>
+                                <th>Status</th>
+                                <th>Date</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+
+                                <td>Asmit Singh</td>
+                                <td>Active</td>
+                                <td>Today</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>Ruma Singh</td>
+                                <td>Pending</td>
+                                <td>Yesterday</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>Rishabh Singh</td>
+                                <td>Completed</td>
+                                <td>22 June</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>Komal Singh</td>
+                                <td>Active</td>
+                                <td>20 June</td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+                <!-- Progress -->
+
+                <div class="progress-box">
+
+                    <h2>Project Progress</h2>
+
+                    <div class="progress-item">
+
+                        <p>HTML</p>
+
+                        <div class="progress">
+                            <div class="html"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="progress-item">
+
+                        <p>CSS</p>
+
+                        <div class="progress">
+                            <div class="css"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="progress-item">
+
+                        <p>JavaScript</p>
+
+                        <div class="progress">
+                            <div class="js"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="progress-item">
+
+                        <p>React</p>
+
+                        <div class="progress">
+                            <div class="react"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
