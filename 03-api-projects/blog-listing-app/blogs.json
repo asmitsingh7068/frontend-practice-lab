@@ -1,0 +1,563 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Understanding JavaScript Closures",
+      "category": "JavaScript",
+      "author": "Asmit Singh",
+      "date": "2026-06-01",
+      "readTime": "5 min",
+      "image": "https://picsum.photos/400/250?random=1",
+      "description": "Learn JavaScript closures with simple examples.",
+      "content": "Closures allow functions to access variables from their outer scope even after the outer function has finished execution."
+    },
+    {
+      "id": 2,
+      "title": "Getting Started with HTML5",
+      "category": "HTML",
+      "author": "Ruma Singh",
+      "date": "2026-06-02",
+      "readTime": "4 min",
+      "image": "https://picsum.photos/400/250?random=2",
+      "description": "A beginner guide to HTML5 elements and structure.",
+      "content": "HTML5 provides semantic tags that help create accessible and SEO-friendly web pages."
+    },
+    {
+      "id": 3,
+      "title": "Mastering CSS Flexbox",
+      "category": "CSS",
+      "author": "Sachin Yadaw",
+      "date": "2026-06-03",
+      "readTime": "6 min",
+      "image": "https://picsum.photos/400/250?random=3",
+      "description": "Learn how Flexbox makes layouts easy.",
+      "content": "Flexbox is a one-dimensional layout model that simplifies alignment and spacing."
+    },
+    {
+      "id": 4,
+      "title": "Introduction to Java Programming",
+      "category": "Java",
+      "author": "Shubham ",
+      "date": "2026-06-04",
+      "readTime": "7 min",
+      "image": "https://picsum.photos/400/250?random=4",
+      "description": "Start your Java journey with basic concepts.",
+      "content": "Java is an object-oriented programming language widely used for enterprise applications."
+    },
+    {
+      "id": 5,
+      "title": "Spring Boot REST API Basics",
+      "category": "Spring Boot",
+      "author": "Asmit Singh",
+      "date": "2026-06-05",
+      "readTime": "8 min",
+      "image": "https://picsum.photos/400/250?random=5",
+      "description": "Build your first REST API using Spring Boot.",
+      "content": "Spring Boot makes it easy to create production-ready REST APIs with minimal configuration."
+    },
+    {
+      "id": 6,
+      "title": "Git and GitHub for Beginners",
+      "category": "Git",
+      "author": "Ruma Singh",
+      "date": "2026-06-06",
+      "readTime": "5 min",
+      "image": "https://picsum.photos/400/250?random=6",
+      "description": "Understand version control using Git and GitHub.",
+      "content": "Git helps developers track changes, collaborate with teams, and manage project history."
+    },
+    {
+      "id": 7,
+      "title": "React Components Explained",
+      "category": "React",
+      "author": "Rishabh Singh",
+      "date": "2026-06-07",
+      "readTime": "7 min",
+      "image": "https://picsum.photos/400/250?random=7",
+      "description": "Understand functional and class components in React.",
+      "content": "Components are reusable building blocks used to create user interfaces in React."
+    },
+    {
+      "id": 8,
+      "title": "Node.js Crash Course",
+      "category": "Node.js",
+      "author": "Rishabh Singh",
+      "date": "2026-06-08",
+      "readTime": "6 min",
+      "image": "https://picsum.photos/400/250?random=8",
+      "description": "Learn Node.js fundamentals for backend development.",
+      "content": "Node.js allows JavaScript to run outside the browser using the V8 JavaScript engine."
+    },
+    {
+      "id": 9,
+      "title": "Introduction to SQL",
+      "category": "SQL",
+      "author": "Asmit Singh",
+      "date": "2026-06-09",
+      "readTime": "5 min",
+      "image": "https://picsum.photos/400/250?random=9",
+      "description": "Learn SQL queries for managing databases.",
+      "content": "SQL is used to create, retrieve, update, and delete data from relational databases."
+    },
+    {
+      "id": 10,
+      "title": "Web Development Roadmap 2026",
+      "category": "Web Development",
+      "author": "Asmit Singh",
+      "date": "2026-06-10",
+      "readTime": "9 min",
+      "image": "https://picsum.photos/400/250?random=10",
+      "description": "A complete roadmap to become a web developer in 2026.",
+      "content": "Learn HTML, CSS, JavaScript, React, Node.js, databases, Git, and deployment to become a full-stack developer."
+    }
+
+
+    ,
+{
+  "id": 11,
+  "title": "Understanding Object-Oriented Programming",
+  "category": "Java",
+  "author": "Komal Singh",
+  "date": "2026-06-11",
+  "readTime": "8 min",
+  "image": "https://picsum.photos/400/250?random=11",
+  "description": "Learn the four pillars of Object-Oriented Programming.",
+  "content": "Object-Oriented Programming (OOP) is based on encapsulation, inheritance, polymorphism, and abstraction."
+},
+{
+  "id": 12,
+  "title": "Top 10 CSS Tricks Every Developer Should Know",
+  "category": "CSS",
+  "author": "Komal Singh",
+  "date": "2026-06-12",
+  "readTime": "6 min",
+  "image": "https://picsum.photos/400/250?random=12",
+  "description": "Improve your CSS skills with these useful tricks.",
+  "content": "CSS tricks like flexbox, grid, transitions, variables, and animations help create beautiful websites."
+},
+{
+  "id": 13,
+  "title": "Introduction to React Hooks",
+  "category": "React",
+  "author": "Aasu Yadaw",
+  "date": "2026-06-13",
+  "readTime": "7 min",
+  "image": "https://picsum.photos/400/250?random=13",
+  "description": "Learn useState and useEffect with examples.",
+  "content": "React Hooks allow functional components to use state and lifecycle features without classes."
+},
+{
+  "id": 14,
+  "title": "Building REST APIs with Spring Boot",
+  "category": "Spring Boot",
+  "author": "Asmit Singh",
+  "date": "2026-06-14",
+  "readTime": "10 min",
+  "image": "https://picsum.photos/400/250?random=14",
+  "description": "Create REST APIs using Spring Boot step by step.",
+  "content": "Spring Boot simplifies REST API development using annotations such as @RestController and @GetMapping."
+},
+{
+  "id": 15,
+  "title": "Introduction to Docker",
+  "category": "DevOps",
+  "author": "Goldi Yadaw",
+  "date": "2026-06-15",
+  "readTime": "8 min",
+  "image": "https://picsum.photos/400/250?random=15",
+  "description": "Containerize your applications using Docker.",
+  "content": "Docker packages applications and their dependencies into lightweight containers."
+},
+{
+  "id": 16,
+  "title": "JavaScript ES6 Features",
+  "category": "JavaScript",
+  "author": "Kushi Singh",
+  "date": "2026-06-16",
+  "readTime": "6 min",
+  "image": "https://picsum.photos/400/250?random=16",
+  "description": "Explore modern JavaScript features introduced in ES6.",
+  "content": "ES6 introduced let, const, arrow functions, template literals, destructuring, modules, and promises."
+},
+{
+  "id": 17,
+  "title": "Database Normalization Explained",
+  "category": "SQL",
+  "author": "Komal Singh",
+  "date": "2026-06-17",
+  "readTime": "7 min",
+  "image": "https://picsum.photos/400/250?random=17",
+  "description": "Understand 1NF, 2NF, and 3NF with examples.",
+  "content": "Normalization reduces data redundancy and improves database consistency."
+},
+{
+  "id": 18,
+  "title": "Responsive Web Design Basics",
+  "category": "Web Development",
+  "author": "Sanju Kuamr",
+  "date": "2026-06-18",
+  "readTime": "6 min",
+  "image": "https://picsum.photos/400/250?random=18",
+  "description": "Build websites that work on every device.",
+  "content": "Responsive design uses media queries, flexible layouts, and responsive images."
+},
+{
+  "id": 19,
+  "title": "Introduction to Python Programming",
+  "category": "Python",
+  "author": "Sanju Kuamr",
+  "date": "2026-06-19",
+  "readTime": "7 min",
+  "image": "https://picsum.photos/400/250?random=19",
+  "description": "Start learning Python from scratch.",
+  "content": "Python is an easy-to-learn language used in web development, automation, AI, and data science."
+},
+{
+  "id": 20,
+  "title": "GitHub Portfolio Tips for Developers",
+  "category": "Career",
+  "author": "Asmit Singh",
+  "date": "2026-06-20",
+  "readTime": "5 min",
+  "image": "https://picsum.photos/400/250?random=20",
+  "description": "Build an impressive GitHub portfolio to attract recruiters.",
+  "content": "A strong GitHub profile should include quality projects, clear README files, proper commits, and consistent activity."
+}
+
+,
+{
+  "id": 21,
+  "title": "Introduction to Data Structures",
+  "category": "DSA",
+  "author": "Sanju Kuamr",
+  "date": "2026-06-21",
+  "readTime": "8 min",
+  "image": "https://picsum.photos/400/250?random=21",
+  "description": "Learn the basics of arrays, linked lists, stacks, and queues.",
+  "content": "Data Structures are used to organize and store data efficiently for better performance."
+},
+{
+  "id": 22,
+  "title": "Binary Search Explained",
+  "category": "Algorithms",
+  "author": "Sanju Kuamr",
+  "date": "2026-06-22",
+  "readTime": "6 min",
+  "image": "https://picsum.photos/400/250?random=22",
+  "description": "Understand Binary Search with examples.",
+  "content": "Binary Search works on sorted arrays and reduces search time to O(log n)."
+},
+{
+  "id": 23,
+  "title": "Introduction to REST APIs",
+  "category": "Backend",
+  "author": "Asmit Singh",
+  "date": "2026-06-23",
+  "readTime": "7 min",
+  "image": "https://picsum.photos/400/250?random=23",
+  "description": "Learn how REST APIs work.",
+  "content": "REST APIs use HTTP methods like GET, POST, PUT, and DELETE for communication."
+},
+{
+  "id": 24,
+  "title": "Mastering Git Branches",
+  "category": "Git",
+  "author": "Aasu Yadaw",
+  "date": "2026-06-24",
+  "readTime": "5 min",
+  "image": "https://picsum.photos/400/250?random=24",
+  "description": "Learn branching and merging in Git.",
+  "content": "Git branches help developers work on features independently before merging into the main branch."
+},
+{
+  "id": 25,
+  "title": "Understanding HTTP Methods",
+  "category": "Web Development",
+  "author": "Goldi Yadaw",
+  "date": "2026-06-25",
+  "readTime": "6 min",
+  "image": "https://picsum.photos/400/250?random=25",
+  "description": "Learn GET, POST, PUT, PATCH and DELETE.",
+  "content": "HTTP methods define the type of action performed on server resources."
+},
+{
+  "id": 26,
+  "title": "Introduction to MongoDB",
+  "category": "Database",
+  "author": "Komal Singh",
+  "date": "2026-06-26",
+  "readTime": "8 min",
+  "image": "https://picsum.photos/400/250?random=26",
+  "description": "Learn NoSQL database fundamentals.",
+  "content": "MongoDB stores data in flexible JSON-like BSON documents."
+},
+{
+  "id": 27,
+  "title": "Responsive Navbar using Flexbox",
+  "category": "CSS",
+  "author": "Rishabh Singh",
+  "date": "2026-06-27",
+  "readTime": "5 min",
+  "image": "https://picsum.photos/400/250?random=27",
+  "description": "Build a responsive navigation bar.",
+  "content": "Flexbox makes it simple to align and distribute space between navigation items."
+},
+{
+  "id": 28,
+  "title": "Java Exception Handling",
+  "category": "Java",
+  "author": "Asmit Singh",
+  "date": "2026-06-28",
+  "readTime": "9 min",
+  "image": "https://picsum.photos/400/250?random=28",
+  "description": "Understand try-catch-finally with examples.",
+  "content": "Exception handling prevents unexpected program crashes and improves application reliability."
+},
+{
+  "id": 29,
+  "title": "Introduction to Artificial Intelligence",
+  "category": "AI",
+  "author": "Ruma Singh",
+  "date": "2026-06-29",
+  "readTime": "10 min",
+  "image": "https://picsum.photos/400/250?random=29",
+  "description": "Learn AI fundamentals and applications.",
+  "content": "Artificial Intelligence enables machines to simulate human intelligence and decision-making."
+},
+{
+  "id": 30,
+  "title": "Complete Frontend Developer Roadmap",
+  "category": "Career",
+  "author": "Asmit Singh",
+  "date": "2026-06-30",
+  "readTime": "12 min",
+  "image": "https://picsum.photos/400/250?random=30",
+  "description": "A step-by-step roadmap to become a frontend developer.",
+  "content": "Start with HTML, CSS, JavaScript, then learn React, Git, APIs, responsive design, and build real-world projects."
+}
+
+,
+{
+  "id": 31,
+  "title": "Introduction to Microservices",
+  "category": "Spring Boot",
+  "author": "Asmit Singh",
+  "date": "2026-07-01",
+  "readTime": "10 min",
+  "image": "https://picsum.photos/400/250?random=31",
+  "description": "Understand the basics of Microservices Architecture.",
+  "content": "Microservices divide large applications into small, independent services that communicate through REST APIs."
+},
+{
+  "id": 32,
+  "title": "JWT Authentication Explained",
+  "category": "Security",
+  "author": "Asmit Singh",
+  "date": "2026-07-02",
+  "readTime": "8 min",
+  "image": "https://picsum.photos/400/250?random=32",
+  "description": "Learn how JWT authentication works.",
+  "content": "JWT (JSON Web Token) is used to securely authenticate users between client and server."
+},
+{
+  "id": 33,
+  "title": "Understanding Java Streams",
+  "category": "Java",
+  "author": "Ruma Singh",
+  "date": "2026-07-03",
+  "readTime": "9 min",
+  "image": "https://picsum.photos/400/250?random=33",
+  "description": "Learn Java Stream API with examples.",
+  "content": "The Stream API allows functional-style operations like filter, map, sort, and collect on collections."
+},
+{
+  "id": 34,
+  "title": "CSS Grid Layout Guide",
+  "category": "CSS",
+  "author": "Asmit Singh",
+  "date": "2026-07-04",
+  "readTime": "6 min",
+  "image": "https://picsum.photos/400/250?random=34",
+  "description": "Create modern layouts using CSS Grid.",
+  "content": "CSS Grid provides a two-dimensional layout system for building responsive web pages."
+},
+{
+  "id": 35,
+  "title": "Mastering Async and Await",
+  "category": "JavaScript",
+  "author": "Ruma Singh",
+  "date": "2026-07-05",
+  "readTime": "7 min",
+  "image": "https://picsum.photos/400/250?random=35",
+  "description": "Simplify asynchronous JavaScript using async/await.",
+  "content": "Async/await makes asynchronous code easier to read and maintain compared to chained promises."
+},
+{
+  "id": 36,
+  "title": "Introduction to Kubernetes",
+  "category": "DevOps",
+  "author": "Komal Singh",
+  "date": "2026-07-06",
+  "readTime": "11 min",
+  "image": "https://picsum.photos/400/250?random=36",
+  "description": "Learn Kubernetes fundamentals.",
+  "content": "Kubernetes automates deployment, scaling, and management of containerized applications."
+},
+{
+  "id": 37,
+  "title": "Top SQL Interview Questions",
+  "category": "SQL",
+  "author": "Ruma Singh",
+  "date": "2026-07-07",
+  "readTime": "8 min",
+  "image": "https://picsum.photos/400/250?random=37",
+  "description": "Prepare for SQL interviews with common questions.",
+  "content": "Practice joins, subqueries, normalization, indexing, and aggregate functions to crack SQL interviews."
+},
+{
+  "id": 38,
+  "title": "System Design Basics",
+  "category": "System Design",
+  "author": "Asmit Singh",
+  "date": "2026-07-08",
+  "readTime": "12 min",
+  "image": "https://picsum.photos/400/250?random=38",
+  "description": "Learn the foundations of System Design.",
+  "content": "Understand scalability, availability, load balancing, caching, databases, and CAP theorem."
+},
+{
+  "id": 39,
+  "title": "Top VS Code Extensions",
+  "category": "Productivity",
+  "author": "Aasu Yadaw",
+  "date": "2026-07-09",
+  "readTime": "5 min",
+  "image": "https://picsum.photos/400/250?random=39",
+  "description": "Boost productivity with the best VS Code extensions.",
+  "content": "Extensions like Prettier, ESLint, Live Server, GitLens, and Thunder Client improve development workflow."
+},
+{
+  "id": 40,
+  "title": "Complete Backend Developer Roadmap",
+  "category": "Career",
+  "author": "Asmit Singh",
+  "date": "2026-07-10",
+  "readTime": "13 min",
+  "image": "https://picsum.photos/400/250?random=40",
+  "description": "A roadmap to become a Backend Developer.",
+  "content": "Learn Java, Spring Boot, SQL, REST APIs, Security, Docker, Kubernetes, Microservices, and Cloud technologies."
+}
+
+,
+{
+  "id": 41,
+  "title": "Introduction to Cloud Computing",
+  "category": "Cloud",
+  "author": "Goldi Yadaw",
+  "date": "2026-07-11",
+  "readTime": "9 min",
+  "image": "https://picsum.photos/400/250?random=41",
+  "description": "Learn the fundamentals of cloud computing and its service models.",
+  "content": "Cloud computing delivers computing resources over the internet. The three major service models are IaaS, PaaS, and SaaS."
+},
+{
+  "id": 42,
+  "title": "Mastering GitHub Actions",
+  "category": "DevOps",
+  "author": "Aasu Yadaw",
+  "date": "2026-07-12",
+  "readTime": "8 min",
+  "image": "https://picsum.photos/400/250?random=42",
+  "description": "Automate your workflows with GitHub Actions.",
+  "content": "GitHub Actions enables continuous integration and continuous deployment (CI/CD) directly from your GitHub repository."
+},
+{
+  "id": 43,
+  "title": "React Router Complete Guide",
+  "category": "React",
+  "author": "Sachin Yadaw",
+  "date": "2026-07-13",
+  "readTime": "7 min",
+  "image": "https://picsum.photos/400/250?random=43",
+  "description": "Learn client-side routing using React Router.",
+  "content": "React Router allows navigation between pages in single-page applications without reloading the browser."
+},
+{
+  "id": 44,
+  "title": "Building Responsive Websites",
+  "category": "Web Development",
+  "author": "Sachin Yadaw",
+  "date": "2026-07-14",
+  "readTime": "6 min",
+  "image": "https://picsum.photos/400/250?random=44",
+  "description": "Create websites that work beautifully on every device.",
+  "content": "Responsive websites use flexible layouts, media queries, and responsive images to adapt to different screen sizes."
+},
+{
+  "id": 45,
+  "title": "Introduction to Machine Learning",
+  "category": "AI",
+  "author": "Sachin Yadaw",
+  "date": "2026-07-15",
+  "readTime": "10 min",
+  "image": "https://picsum.photos/400/250?random=45",
+  "description": "Understand the basics of Machine Learning.",
+  "content": "Machine Learning enables computers to learn patterns from data and make predictions without being explicitly programmed."
+},
+{
+  "id": 46,
+  "title": "Top Java Interview Questions",
+  "category": "Java",
+  "author": "Sachin Yadaw",
+  "date": "2026-07-16",
+  "readTime": "11 min",
+  "image": "https://picsum.photos/400/250?random=46",
+  "description": "Prepare for Java interviews with frequently asked questions.",
+  "content": "Topics include OOP, Collections, Exception Handling, Multithreading, JDBC, Java 8, and Spring Framework."
+},
+{
+  "id": 47,
+  "title": "Introduction to RESTful Web Services",
+  "category": "Spring Boot",
+  "author": "Asmit Singh",
+  "date": "2026-07-17",
+  "readTime": "8 min",
+  "image": "https://picsum.photos/400/250?random=47",
+  "description": "Build scalable RESTful APIs using Spring Boot.",
+  "content": "RESTful services follow REST principles and use HTTP methods to communicate between clients and servers."
+},
+{
+  "id": 48,
+  "title": "Top 15 VS Code Shortcuts",
+  "category": "Productivity",
+  "author": "Komal Singh",
+  "date": "2026-07-18",
+  "readTime": "5 min",
+  "image": "https://picsum.photos/400/250?random=48",
+  "description": "Increase your coding speed using VS Code shortcuts.",
+  "content": "Keyboard shortcuts help developers navigate, edit, and debug code much faster than using the mouse."
+},
+{
+  "id": 49,
+  "title": "System Design Interview Preparation",
+  "category": "System Design",
+  "author": "Asmit Singh",
+  "date": "2026-07-19",
+  "readTime": "12 min",
+  "image": "https://picsum.photos/400/250?random=49",
+  "description": "Prepare for system design interviews with essential concepts.",
+  "content": "Study load balancing, caching, databases, scalability, messaging queues, CDN, and distributed systems."
+},
+{
+  "id": 50,
+  "title": "Complete Full Stack Developer Roadmap",
+  "category": "Career",
+  "author": "Asmit Singh",
+  "date": "2026-07-20",
+  "readTime": "15 min",
+  "image": "https://picsum.photos/400/250?random=50",
+  "description": "A complete roadmap to become a Full Stack Developer.",
+  "content": "Master HTML, CSS, JavaScript, React, Java, Spring Boot, MySQL, REST APIs, Git, Docker, Kubernetes, and cloud deployment by building real-world projects."
+}
+  ]
+}

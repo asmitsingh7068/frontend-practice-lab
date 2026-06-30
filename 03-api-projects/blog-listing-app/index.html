@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Blog Listing App</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="logo">
+
+            <h2>BlogHub</h2>
+
+        </div>
+
+        <nav>
+
+            <a href="#">Home</a>
+            <a href="#">Blogs</a>
+            <a href="#">Categories</a>
+            <a href="#">About</a>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <h1>Discover Amazing Blogs</h1>
+
+        <p>
+            Read articles on Technology, Programming,
+            Web Development and much more.
+        </p>
+
+    </section>
+
+    <!-- ================= SEARCH & FILTER ================= -->
+
+    <section class="filter-section">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search blogs...">
+
+        <select id="categoryFilter">
+
+            <option value="all">All Categories</option>
+            <option value="Technology">Technology</option>
+            <option value="Programming">Programming</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Java">Java</option>
+            <option value="CSS">CSS</option>
+
+        </select>
+
+    </section>
+
+    <!-- ================= BLOG CONTAINER ================= -->
+
+    <main
+        id="blogContainer"
+        class="blog-container">
+
+        <!-- Blog Cards will come here -->
+
+    </main>
+
+    <!-- ================= LOADER ================= -->
+
+    <div
+        id="loader"
+        class="loader hidden">
+
+        <div class="spinner"></div>
+
+        <p>Loading Blogs...</p>
+
+    </div>
+
+    <!-- ================= ERROR ================= -->
+
+    <div
+        id="error"
+        class="error hidden">
+
+        <h3>Something went wrong!</h3>
+
+        <p>Please try again later.</p>
+
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+
+            © 2026 BlogHub | Built with ❤️ using HTML, CSS & JavaScript
+
+        </p>
+
+    </footer>
+
+    <!-- ================= JS ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
