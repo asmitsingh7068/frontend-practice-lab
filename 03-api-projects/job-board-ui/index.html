@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Job Board UI</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo">
+
+        JobFinder
+
+    </div>
+
+    <nav>
+
+        <a href="#">Home</a>
+        <a href="#">Jobs</a>
+        <a href="#">Companies</a>
+        <a href="#">Contact</a>
+
+    </nav>
+
+</header>
+
+
+<section class="hero">
+
+    <h1>Find Your Dream Job</h1>
+
+    <p>Search thousands of jobs from top companies.</p>
+
+</section>
+
+
+<section class="search-section">
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search jobs...">
+
+    <select id="location">
+
+        <option>All Locations</option>
+        <option>Bangalore</option>
+        <option>Hyderabad</option>
+        <option>Pune</option>
+
+    </select>
+
+    <select id="jobType">
+
+        <option>All Types</option>
+        <option>Full Time</option>
+        <option>Remote</option>
+
+    </select>
+
+</section>
+
+
+<main id="jobsContainer"
+      class="jobs-container">
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
