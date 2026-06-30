@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App | Local Storage</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <h1><i class="fa-solid fa-note-sticky"></i> Notes App</h1>
+            <p>Save your notes using Local Storage</p>
+        </header>
+
+        <!-- Search -->
+        <section class="search-section">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search notes...">
+        </section>
+
+        <!-- Add Note -->
+        <section class="note-form">
+
+            <input
+                type="text"
+                id="noteTitle"
+                placeholder="Enter note title">
+
+            <textarea
+                id="noteText"
+                rows="6"
+                placeholder="Write your note here..."></textarea>
+
+            <button id="addNoteBtn">
+                <i class="fa-solid fa-plus"></i>
+                Add Note
+            </button>
+
+        </section>
+
+        <!-- Notes -->
+        <section class="notes-section">
+
+            <h2>My Notes</h2>
+
+            <div id="notesContainer">
+
+                <!-- Empty State -->
+                <div class="empty-state">
+
+                    <i class="fa-regular fa-note-sticky"></i>
+
+                    <h3>No Notes Yet</h3>
+
+                    <p>
+                        Click "Add Note" to create your first note.
+                    </p>
+
+                </div>
+
+                <!-- Dynamic Notes Here -->
+
+                <!--
+                <div class="note-card">
+
+                    <h3>JavaScript</h3>
+
+                    <p>
+                        Practice DOM Manipulation today.
+                    </p>
+
+                    <div class="note-actions">
+
+                        <button class="edit-btn">
+                            <i class="fa-solid fa-pen"></i>
+                            Edit
+                        </button>
+
+                        <button class="delete-btn">
+                            <i class="fa-solid fa-trash"></i>
+                            Delete
+                        </button>
+
+                    </div>
+
+                </div>
+                -->
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

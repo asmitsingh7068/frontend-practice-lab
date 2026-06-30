@@ -1,0 +1,230 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    min-height:100vh;
+    padding:40px 20px;
+}
+
+.container{
+    width:100%;
+    max-width:850px;
+}
+
+/* ================= Header ================= */
+
+header{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+header h1{
+    font-size:2.5rem;
+    color:#2c3e50;
+    margin-bottom:8px;
+}
+
+header p{
+    color:#666;
+}
+
+/* ================= Search ================= */
+
+.search-section{
+    margin-bottom:20px;
+}
+
+.search-section input{
+    width:100%;
+    padding:14px 18px;
+    border:none;
+    outline:none;
+    border-radius:10px;
+    font-size:16px;
+    background:#fff;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+/* ================= Form ================= */
+
+.note-form{
+    background:#fff;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    margin-bottom:30px;
+}
+
+.note-form input,
+.note-form textarea{
+    width:100%;
+    border:1px solid #ddd;
+    outline:none;
+    padding:14px;
+    border-radius:8px;
+    margin-bottom:15px;
+    font-size:15px;
+}
+
+.note-form textarea{
+    resize:none;
+    min-height:160px;
+}
+
+.note-form input:focus,
+.note-form textarea:focus{
+    border-color:#4f46e5;
+}
+
+/* ================= Button ================= */
+
+#addNoteBtn{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:8px;
+    background:#4f46e5;
+    color:#fff;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+#addNoteBtn:hover{
+    background:#372fc7;
+}
+
+/* ================= Notes ================= */
+
+.notes-section h2{
+    margin-bottom:20px;
+    color:#2c3e50;
+}
+
+#notesContainer{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:20px;
+}
+
+/* ================= Card ================= */
+
+.note-card{
+    background:#fff;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.note-card:hover{
+    transform:translateY(-5px);
+}
+
+.note-card h3{
+    color:#333;
+    margin-bottom:10px;
+}
+
+.note-card p{
+    color:#666;
+    line-height:1.6;
+    word-break:break-word;
+}
+
+/* ================= Buttons ================= */
+
+.note-actions{
+    margin-top:18px;
+    display:flex;
+    gap:10px;
+}
+
+.note-actions button{
+    flex:1;
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    color:#fff;
+    transition:.3s;
+}
+
+.edit-btn{
+    background:#0ea5e9;
+}
+
+.edit-btn:hover{
+    background:#0284c7;
+}
+
+.delete-btn{
+    background:#ef4444;
+}
+
+.delete-btn:hover{
+    background:#dc2626;
+}
+
+/* ================= Empty ================= */
+
+.empty-state{
+    grid-column:1/-1;
+    background:#fff;
+    padding:50px 20px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.empty-state i{
+    font-size:60px;
+    color:#bbb;
+    margin-bottom:15px;
+}
+
+.empty-state h3{
+    color:#444;
+    margin-bottom:10px;
+}
+
+.empty-state p{
+    color:#777;
+}
+
+/* ================= Responsive ================= */
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:2rem;
+    }
+
+    .note-form{
+        padding:20px;
+    }
+
+}
+
+@media(max-width:500px){
+
+    body{
+        padding:20px 15px;
+    }
+
+    .note-actions{
+        flex-direction:column;
+    }
+
+}
