@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Arial,sans-serif;
+
+    background:#f4f4f4;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:100vh;
+
+}
+
+.container{
+
+    width:420px;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:12px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+
+}
+
+h1{
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+.input-box{
+
+    display:flex;
+
+    gap:10px;
+
+}
+
+input{
+
+    flex:1;
+
+    padding:10px;
+
+    font-size:16px;
+
+}
+
+button{
+
+    padding:10px 16px;
+
+    border:none;
+
+    cursor:pointer;
+
+    border-radius:6px;
+
+}
+
+#addBtn{
+
+    background:royalblue;
+
+    color:white;
+
+}
+
+#counter{
+
+    margin:15px 0;
+
+    font-weight:bold;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+li{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:12px;
+
+    margin-bottom:10px;
+
+    background:#f8f8f8;
+
+    border-radius:6px;
+
+}
+
+.actions{
+
+    display:flex;
+
+    gap:8px;
+
+}
+
+.complete-btn{
+
+    background:green;
+
+    color:white;
+
+}
+
+.delete-btn{
+
+    background:crimson;
+
+    color:white;
+
+}
+
+.edit-btn{
+
+    background:orange;
+
+    color:white;
+
+}
+
+.completed{
+
+    text-decoration:line-through;
+
+    color:gray;
+
+}

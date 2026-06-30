@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion & Tabs</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Accordion & Tabs</h1>
+
+        <!-- Tabs -->
+
+        <div class="tabs">
+
+            <button class="tab active" data-tab="home">Home</button>
+
+            <button class="tab" data-tab="about">About</button>
+
+            <button class="tab" data-tab="contact">Contact</button>
+
+        </div>
+
+        <!-- Tab Content -->
+
+        <div class="tab-content active" id="home">
+
+            <h2>Home</h2>
+            <p>This project is created by Asmit Singh.</p>
+            <p>Welcome to Home Section.</p>
+
+        </div>
+
+        <div class="tab-content" id="about">
+
+            <h2>About</h2>
+            <p>This project is created by Asmit Singh.</p>
+            <p>This project teaches JavaScript DOM manipulation.</p>
+
+        </div>
+
+        <div class="tab-content" id="contact">
+
+            <h2>Contact</h2>
+
+            <p>Email : asmitsingh20000@gmail.com</p>
+
+        </div>
+
+        <hr>
+
+        <!-- Accordion -->
+
+        <div class="accordion">
+
+            <div class="item">
+
+                <button class="question">
+                    What is HTML?
+                </button>
+
+                <div class="answer">
+                    HTML is used to create webpage structure.
+                </div>
+
+            </div>
+
+            <div class="item">
+
+                <button class="question">
+                    What is CSS?
+                </button>
+
+                <div class="answer">
+                    CSS is used for styling webpages.
+                </div>
+
+            </div>
+
+            <div class="item">
+
+                <button class="question">
+                    What is JavaScript?
+                </button>
+
+                <div class="answer">
+                    JavaScript makes webpages interactive.
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
