@@ -1,0 +1,290 @@
+/* ====================================
+   Reset
+==================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+
+/* ====================================
+   Body
+==================================== */
+
+body{
+
+    background:linear-gradient(135deg,#667eea,#764ba2);
+
+    min-height:100vh;
+
+    padding:50px 30px;
+
+}
+
+
+/* ====================================
+   Header
+==================================== */
+
+header{
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+}
+
+header h1{
+
+    color:#ffffff;
+
+    font-size:42px;
+
+    margin-bottom:10px;
+
+}
+
+header p{
+
+    color:#f2f2f2;
+
+    font-size:18px;
+
+}
+
+
+/* ====================================
+   Card Container
+==================================== */
+
+.card-container{
+
+    max-width:1300px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:30px;
+
+}
+
+
+/* ====================================
+   Card
+==================================== */
+
+.card{
+
+    background:#ffffff;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.2);
+
+    transition:.4s;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+/* Hover */
+
+.card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 25px 45px rgba(0,0,0,.3);
+
+}
+
+
+/* ====================================
+   Card Image
+==================================== */
+
+.card img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+
+/* ====================================
+   Card Content
+==================================== */
+
+.card-content{
+
+    padding:22px;
+
+}
+
+
+/* ====================================
+   Badge
+==================================== */
+
+.badge{
+
+    display:inline-block;
+
+    background:#4f46e5;
+
+    color:#fff;
+
+    padding:6px 14px;
+
+    border-radius:30px;
+
+    font-size:13px;
+
+    margin-bottom:18px;
+
+}
+
+
+/* ====================================
+   Heading
+==================================== */
+
+.card-content h2{
+
+    margin-bottom:12px;
+
+    color:#222;
+
+    font-size:24px;
+
+}
+
+
+/* ====================================
+   Paragraph
+==================================== */
+
+.card-content p{
+
+    color:#666;
+
+    line-height:1.7;
+
+    margin-bottom:20px;
+
+}
+
+
+/* ====================================
+   Price / Info
+==================================== */
+
+.card-content h3{
+
+    color:#4f46e5;
+
+    margin-bottom:22px;
+
+}
+
+
+/* ====================================
+   Button
+==================================== */
+
+.card-content button{
+
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#4f46e5;
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+/* Button Hover */
+
+.card-content button:hover{
+
+    background:#312e81;
+
+    transform:scale(1.03);
+
+}
+
+
+/* ====================================
+   Responsive
+==================================== */
+
+@media(max-width:768px){
+
+    body{
+
+        padding:30px 15px;
+
+    }
+
+    header h1{
+
+        font-size:32px;
+
+    }
+
+    header p{
+
+        font-size:16px;
+
+    }
+
+}
+
+@media(max-width:480px){
+
+    .card-content{
+
+        padding:18px;
+
+    }
+
+    .card-content h2{
+
+        font-size:21px;
+
+    }
+
+    .card img{
+
+        height:200px;
+
+    }
+
+}
