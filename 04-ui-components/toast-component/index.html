@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Premium Toast Component</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1>Premium Toast Notification</h1>
+
+        <p>
+            Click any button to display a toast notification.
+        </p>
+
+        <div class="button-group">
+
+            <button class="btn success-btn">
+                <i class="fa-solid fa-circle-check"></i>
+                Success
+            </button>
+
+            <button class="btn error-btn">
+                <i class="fa-solid fa-circle-xmark"></i>
+                Error
+            </button>
+
+            <button class="btn warning-btn">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                Warning
+            </button>
+
+            <button class="btn info-btn">
+                <i class="fa-solid fa-circle-info"></i>
+                Info
+            </button>
+
+        </div>
+
+    </main>
+
+    <!-- Toast Container -->
+    <div id="toast-container"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
